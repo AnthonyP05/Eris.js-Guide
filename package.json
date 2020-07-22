@@ -1,0 +1,23 @@
+{
+  "name": "eris.js-guide",
+  "version": "0.0.1",
+  "description": "A guide boiler plate for Eris.js ",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antoni05/Eris.js-Guide.git"
+  },
+  "author": "Antoni05",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antoni05/Eris.js-Guide/issues"
+  },
+  "homepage": "https://github.com/Antoni05/Eris.js-Guide#readme",
+  "devDependencies": {
+    "ascii-table": "0.0.9",
+    "eris": "^0.13.3"
+  }
+}
