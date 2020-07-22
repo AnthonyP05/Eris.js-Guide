@@ -35,5 +35,6 @@ module.exports = client => {
 
         }
     })
+    //Log the table showing which commands are available and which are not
     console.log(table.toString());
 }
