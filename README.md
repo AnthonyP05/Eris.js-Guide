@@ -28,6 +28,8 @@ To invite the bot to your Guild (Server): Visit the [Developer Portal OAuth2 Bot
 
 Replace the Discord ID (157730590492196864) in the Url Example with the bot's Discord ID (Can be found in the Developer Portal Applications). 
 
+Documentation for Eris.js can be found [here](https://abal.moe/Eris/docs).
+
 ### About the Bot
 The **Eris.js Guide** contains a handler for commands that show in console which commands are being loaded and which are not, as well as a few utils that could be of use located at **Bot/Config/utils.js**.
 
