@@ -39,6 +39,9 @@ client.on(`messageCreate`, async msg => {
 
     //If another bot tries to use this bot, nothing will happen
     if(msg.author.bot) return;
+    
+    //If a user/member does not use the bot's prefix, don't do anything
+    if(!msg.content.startsWith(config.prefix)) return;
 
     //Argument (args) is the message content that comes after a command, in the form of an array.
     const args = msg.content.slice(config.prefix.length).trim().split(/[^\S\n]+/g);
