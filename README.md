@@ -6,13 +6,13 @@ An Eris.js Boilerplate with tons of Comments [![Discord](https://img.shields.io/
 1. [IDE](https://code.visualstudio.com/) - Visual Studio Code is a *free* open source IDE. Any IDE would work with what we're going to be doing in this guide, Ex: PhpStorm (Not Free), WebStorm (Not Free), or Atom. Once clicking the link, you will want to download the version for your platform, and complete the installation guide. 
 
 1. [Node.js](https://nodejs.org/en/download/) - Node.js is a JavaScript runtime in which we will be utilizing in order to run the Discord bot. Follow the link and download your appropriate installer for your platform, and I recommend the latest (LTS) version. 
-    1. (Windows:) By default, node should be inserted into your Environment Variables Path. If you open command prompt and typing **node** results in an error, follow these steps, otherwise ignore: First, search in the windows search bar **Environment Variables** and click *Edit the system environment variables*. Then, click *Environment Variables...* at the bottom of the prompt that it displays. Another prompt will popup, navigate to System Variables, and click the *Path* variable and click *Edit...* Click *New* and type in **C:\Program Files\nodejs\\** or wherever your nodejs directory is located.
+    1. (Windows:) By default, node should be inserted into your Environment Variables Path. If you open command prompt and typing **npm** results in an error, follow these steps, otherwise ignore: First, search in the windows search bar **Environment Variables** and click *Edit the system environment variables*. Then, click *Environment Variables...* at the bottom of the prompt that it displays. Another prompt will popup, navigate to System Variables, and click the *Path* variable and click *Edit...* Click *New* and type in **C:\Program Files\nodejs\\** or wherever your nodejs directory is located.
     
 1. [Bot Files](https://github.com/Antoni05/Eris.js-Guide/archive/master.zip) - If you have Github Desktop then you may use that to clone. Otherwise, download the zip then right click the folder in the directory that it's in and click *Extract All*. 
     1. Files can also be downloaded via Git Command Line using the following line: `git clone https://github.com/Antoni05/Eris.js-Guide.git`
     
 ### Dependencies
-Before starting the bot, a few things are required. Dependencies being one of them. In its current state, **Eris.js-Guide** requires 2 depenedencies which can be installed in its directory by running the commands (In its directory): `npm install eris` & `npm install ascii-table`    
+Before starting the bot, a few things are required. Dependencies being one of them. In its current state, **Eris.js-Guide** requires 2 dependencies which can be installed in its directory by running the commands (In its directory): `npm install eris` & `npm install ascii-table`    
     
 ### Starting the Bot
 In order to start the bot you will need to retrieve the token from the [Discord Developer Portal](https://discord.com/developers/applications). To do so, Follow these steps:
